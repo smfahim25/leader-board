@@ -8,7 +8,7 @@ a {
 }
 #header-section {
     background: #562EFF;
-    position: relative;
+    position: sticky;
     margin: 0;
 }
 .inner-header {
@@ -228,8 +228,15 @@ hr{
      .player, .blog{
          flex-direction: column;
      }
+     .blog{
+         justify-content: center;
+         align-items: center;
+     }
      .course{
          margin-bottom: 30px;
+     }
+     .blog-info{
+         margin-left:0 ;
      }
  }
 
